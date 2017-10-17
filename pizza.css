@@ -1,0 +1,82 @@
+body{
+	font-family: "Verdana";
+	background-image: url("background.jpg");
+	background-color: ivory;
+}
+
+header{
+	position:absolute;
+	padding: 20px;
+	width: 50%;
+	left: 25%;
+	height: auto; 
+	top:50px;
+	color:grey;
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+	background-color: ivory;
+	border-radius:20px;
+}
+
+nav{
+	position:absolute;
+	padding: 5px;
+	width: 50%;
+	left: 25%;
+	height: auto; 
+	top:180px;
+	color:grey;
+	font-size:small;
+	text-align:center;
+	background-color: ivory;
+	border-radius:20px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+article{
+	position:absolute;
+	padding: 5px;
+	width: 50%;
+	left: 25%;
+	height: auto; 
+	top:270px;
+	color:black;
+	font-size:small;
+	text-align:center;
+	background-color: ivory;
+	border-radius:20px;
+}
+
+footer{
+	position:obsolute;
+	width:auto;
+	bottom: 1px;
+	height:auto; 
+	color:black;
+	font-size:x-small;
+	text-align:center;
+	background-color: ivory;
+}
+
+h1{
+	font-size:24px;
+	text-align:left;
+}
+h2{
+	font-size:20px;
+	text-align:left;
+	text-style:bold;
+}
+p{
+	font-size:20px;
+	text-align:left;
+}
+
+.lista li{
+	list-style-image:url(logo.png);
+	text-align:left;
+}
