@@ -1,29 +1,36 @@
 body{
 	font-family: "Verdana";
 	background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-size: cover;
 	background-color: azure;
 }
 
 header{
 	position:fixed;
-	padding:15px;
-	width: 100%;
-	height: auto; 
-	color:grey;
-	font-size:20px;
+	margin: -30px;
+	padding: 10px;
+	top: 30px;
+	left:30px;
+	width: 100%; 
+	color: ivory;
+	font-size:30px;
 	font-weight:bold;
 	text-align:left;
-	background-color: azure;
 	z-index:10;
+	background-color: grey;
+}
+
+header svg{
+	position:fixed;
+	z-index:9;
 }
 
 nav{
 	position:fixed;
-	width: 50%;
+	width: 80%;
 	left: 25%;
-	height: auto; 
-	top:18px;
-	color:gr18;
+	top: 0px;
 	font-size:small;
 	text-align:center;
 	z-index:10;
@@ -32,10 +39,14 @@ nav{
 nav ul li{
     display: inline-block;
 }
+nav ul li a{
+	text-decoration: none;
+	color: ivory;
+}
 
 article{
 	position:absolute;
-	padding: 5px;
+	padding: 50px;
 	width: 70%;
 	left: 15%;
 	height: auto; 
@@ -43,20 +54,21 @@ article{
 	color:black;
 	font-size:small;
 	text-align:center;
-	background-color: ivory;
+	background-color: rgba(255, 252, 277, 0.9);
 	border-radius:20px;
 }
 
 img{
 	display:block;
 	position:absolute;
-	top:-150px;
-	left: 300px;
+	top:-100px;
+	right: 0px;
 	transform:scale(0.5);
+	border: 10px solid white;
 }
 
 h1{
-	font-size:24px;
+	font-size:28px;
 	text-align:left;
 }
 h2{
@@ -75,9 +87,10 @@ p{
 }
 footer{
 	position: relative;
-	top: 1350px;
+	top: 1370px;
 	}
 footer p{
 	text-align:center;
-	font-size: 17px;	
+	font-size: 17px;
+	color: rgba(171, 168, 162, 0.7);
 }
